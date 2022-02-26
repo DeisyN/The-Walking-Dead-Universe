@@ -1,0 +1,507 @@
+*{box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+body{
+   margin: 0;
+   background-color:rgb(248, 248, 255)
+   }
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+   p{font-family:Verdana, sans-serif}
+
+
+a{color:rgb(248, 248, 248);
+text-decoration: none;
+}
+h1{font-size: 4em;}
+h2{font-size: 3.4em;}
+h3{font-size: 2em;}
+h4{font-size: 2em;}
+h5{font-size: 2em;}
+h6{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 9px 18px;
+    border-radius: 4.5px;
+    border: 0.25px solid rgba(0,0,0,0,5);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0,5) ;
+    box-shadow: 2px 2px 10px  ;
+    color:beige;
+    background-color: darkolivegreen;
+
+}
+button:hover{background-color:darkgreen;}
+
+
+.color-acento{color: darkolivegreen;}
+
+
+
+
+
+.conteiner{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color:darkolivegreen;
+}
+
+
+header .logo{
+    margin: 0%;
+    padding: 25px 30px ;
+
+
+
+}
+
+header .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+header a{
+    padding: 5px 12px;
+    font-weight: bold;
+}
+header a:hover{
+    color:black;
+
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color:white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/miralasflores.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+}
+
+#hero button{
+    font-size: 1.75em
+}
+
+#somos-the-walking-dead .conteiner{
+     text-align:center;
+     padding: 200px 12px ;
+}
+
+
+#datos-de-la-temporada11-de-twd{
+    background-color: darkolivegreen; 
+    text-align: center;
+    color: white;
+}
+
+
+#datos-de-la-temporada11-de-twd .conteiner{
+    padding: 130px 12px;
+    
+}
+
+#datos-de-la-temporada11-de-twd h2{
+    margin-top: 0%;
+    
+}
+
+#datos-de-la-temporada11-de-twd p{
+    display: none;
+}
+
+#datos-de-la-temporada11-de-twd .carta {
+    background-size: cover;
+    background-position: center center ;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+
+
+}
+
+.carta:first-child{
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/yo1.jpg") ;
+   
+
+}
+
+.carta:nth-child(2){
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/yo2.jpg");
+
+   
+
+}
+
+
+.carta:nth-child(3){
+    background-image:  linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/yo3.jpg");
+   
+
+}
+
+#Episodios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color:white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/mia1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    margin-top: 0%;
+    
+    
+
+}
+
+#Episodios .conteiner{
+    margin: 12px 0px ;
+}
+
+#Episodios h4{
+    text-align: center;
+}
+#Episodios h5{
+    text-align: center;
+}
+
+#Final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+    
+}
+
+
+@media (min-width:720px) {
+    
+    
+    header{
+        position:fixed;
+        width:100%;
+        height: 110px;
+    }
+
+
+    header .conteiner{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0%;
+        padding-right: 20px;
+
+    }
+
+    #somos-the-walking-dead .conteiner{
+
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    #somos-the-walking-dead .texto{
+     width: 50%;
+     max-width: 600px;
+     text-align: initial;
+     padding-left: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+
+    }
+
+    #somos-the-walking-dead h2{
+    margin-top:0px;
+
+
+    }
+
+    #somos-the-walking-dead .img-conteiner{
+        background-image:url("img/carol-mi-mujer.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+
+
+
+
+    #datos-de-la-temporada11-de-twd .conteiner{
+        justify-content: space-evenly;
+    }
+
+    #datos-de-la-temporada11-de-twd .programas{
+    display: flex;
+    justify-content: center;
+ 
+    }
+
+    #datos-de-la-temporada11-de-twd p{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 17.5px;
+    
+
+    }
+    
+    #datos-de-la-temporada11-de-twd h2{
+        font-size: 0px;
+    }
+    #datos-de-la-temporada11-de-twd h3{
+        margin-top: 0;
+    }
+
+    #datos-de-la-temporada11-de-twd .carta{
+    padding: 50px;
+    box-shadow: 2px 2px 10px  rgba(0,0,0,0.5);
+    margin: 40px 40px;
+    }
+}
+
+    .video_conteiner{
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+        
+
+    }
+
+    
+
+
+
+
+    
+
+
+
+   
+     
+
+
+    footer{ background-image:
+
+    url("img/fondo-original.png");
+        width: 100%;
+        padding: 50px 0px;
+        background-size: cover;
+       
+    }
+
+    .conteiner_footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 60px;
+
+    }
+
+    footer h2{
+        font-size: 24px;
+
+    }
+
+    footer h3{
+        color:black;
+        font-size: 24px;
+
+
+    }
+
+    .box_footer{
+        display: flex;
+        flex-direction: column;
+        padding: 27px;
+
+    }
+
+    .box_footer .logo img{
+        width: 180px;
+
+    }
+
+    .box_footer .terms{
+        max-width: 275px;
+        margin-top: 10px;
+        font-weight: 300;
+        color: #9a9a9a;
+        font-style: arial;
+        font-size: 15px;
+
+    }
+
+    .box_footer h2{
+        margin-bottom: 40px;
+        color:#3f3f3f;
+        font-weight: 700;
+
+    }
+
+
+    .box_footer h3{
+        color:rgb(68, 68, 68);
+        font-weight:800;
+        font-style: normal;
+    }
+
+
+    .box_footer a{
+        margin-top: 7px;
+        color:#9a9a9a;
+        font-weight: 500;
+
+    }
+    
+
+    .box_footer a:hover{
+        opacity: 0.8;
+    }
+
+    .box_footer a .fab{
+        font-size: 20px;
+
+    }
+
+    .box_copyright{
+        max-width: 1200px;
+        margin: auto;
+        text-align: right;
+        padding: 0px 40px ;
+        font-size: 10px;
+
+    }
+
+    .box_copyright p{
+        margin-top: 10px;
+        color: #7a7a7a;
+
+    }
+    .box_copyright hr{
+        border: none;
+        height: 1px;
+        background-color: #7a7a7a;
+        
+    }
+
+
+
+
+    
+     
+
+
+
+
+
+   
+    
+
+        
+        
+
+
+        
+    
+
+
+
+   
+    
+
+  
+
+        
+
+       
+    
+
+      
+        
+      
+  
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
